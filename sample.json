@@ -1,0 +1,19 @@
+{
+  "Subscribers": [
+    { "mobile": "9876543210", "name": "Priya Raman", "email": "priya@example.com", "status": "active", "plan": "Postpaid 999", "address": "Chennai" },
+    { "mobile": "9876501234", "name": "Arjun Mehta", "email": "arjun@example.com", "status": "active", "plan": "Postpaid 799", "address": "Bengaluru" },
+    { "mobile": "9123456780", "name": "Kavya Nair", "email": "kavya@example.com", "status": "inactive", "plan": "Postpaid 499", "address": "Kochi" }
+  ],
+  "Bills": [
+    { "bill_id": "B1001", "mobile": "9876543210", "period": "Aug 2026", "issue_date": "2026-09-01", "due_date": "2026-09-15", "voice": "299", "dth": "150", "internet": "499" },
+    { "bill_id": "B1002", "mobile": "9876543210", "period": "Sep 2026", "issue_date": "2026-10-01", "due_date": "2026-10-15", "voice": "299", "dth": "150", "internet": "649" },
+    { "bill_id": "B1003", "mobile": "9876501234", "period": "Sep 2026", "issue_date": "2026-10-01", "due_date": "2026-10-15", "voice": "199", "dth": "0", "internet": "599" },
+    { "bill_id": "B1004", "mobile": "9876501234", "period": "Aug 2026", "issue_date": "2026-09-01", "due_date": "2026-09-15", "voice": "199", "dth": "0", "internet": "549" },
+    { "bill_id": "B1005", "mobile": "9123456780", "period": "Sep 2026", "issue_date": "2026-10-01", "due_date": "2026-10-15", "voice": "149", "dth": "0", "internet": "350" }
+  ],
+  "Payments": [
+    { "payment_id": "P2001", "bill_id": "B1001", "date": "2026-09-10", "amount": "948", "mode": "UPI", "reference": "TXN884201" },
+    { "payment_id": "P2002", "bill_id": "B1002", "date": "2026-10-05", "amount": "500", "mode": "UPI", "reference": "TXN991774" },
+    { "payment_id": "P2003", "bill_id": "B1004", "date": "2026-09-12", "amount": "748", "mode": "Card", "reference": "TXN776310" }
+  ]
+}
